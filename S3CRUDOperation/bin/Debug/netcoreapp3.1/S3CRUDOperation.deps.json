@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "S3CRUDOperation/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Athena": "3.5.1.7",
+          "AWSSDK.S3": "3.5.9.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "S3CRUDOperation.dll": {}
+        }
+      },
+      "AWSSDK.Athena/3.5.1.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.3.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Athena.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.1.7"
+          }
+        }
+      },
+      "AWSSDK.Core/3.5.3.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.3.3"
+          }
+        }
+      },
+      "AWSSDK.S3/3.5.9.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.3.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.9.1"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "S3CRUDOperation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Athena/3.5.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jQKY1RkbeNQJ9RYFBc/Bws8iYMBSMZ0jd2ZjQxTF051eytw8fQc8o/a8x18z99Vc9fV88w0nzmPATiGSpeE11A==",
+      "path": "awssdk.athena/3.5.1.7",
+      "hashPath": "awssdk.athena.3.5.1.7.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.5.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J5p51atBfFkUUS+fe9NQxqsrQeC1wX9TE+xf7YbNu6/I0YkSmotic57BbwFSuTyewge10JwAr7koaEPNn6o4aQ==",
+      "path": "awssdk.core/3.5.3.3",
+      "hashPath": "awssdk.core.3.5.3.3.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.5.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+WNpVcgYYys2/8Ye2cyc/un+Uz56fJcRb5sRmM6VL+WZFHikHzVp8VrAgeLfR96c64XhaTP/f1keh2DatxkT6Q==",
+      "path": "awssdk.s3/3.5.9.1",
+      "hashPath": "awssdk.s3.3.5.9.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AWSSDK.Athena/3.5.1.7": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.3.3, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Athena.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Athena.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.5.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.5.9.1": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.3.3, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Athena/3.5.1.7": {
+      "sha512": "jQKY1RkbeNQJ9RYFBc/Bws8iYMBSMZ0jd2ZjQxTF051eytw8fQc8o/a8x18z99Vc9fV88w0nzmPATiGSpeE11A==",
+      "type": "package",
+      "path": "awssdk.athena/3.5.1.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Athena.CodeAnalysis.dll",
+        "awssdk.athena.3.5.1.7.nupkg.sha512",
+        "awssdk.athena.nuspec",
+        "lib/net35/AWSSDK.Athena.dll",
+        "lib/net35/AWSSDK.Athena.pdb",
+        "lib/net35/AWSSDK.Athena.xml",
+        "lib/net45/AWSSDK.Athena.dll",
+        "lib/net45/AWSSDK.Athena.pdb",
+        "lib/net45/AWSSDK.Athena.xml",
+        "lib/netcoreapp3.1/AWSSDK.Athena.dll",
+        "lib/netcoreapp3.1/AWSSDK.Athena.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Athena.xml",
+        "lib/netstandard1.3/AWSSDK.Athena.dll",
+        "lib/netstandard1.3/AWSSDK.Athena.pdb",
+        "lib/netstandard1.3/AWSSDK.Athena.xml",
+        "lib/netstandard2.0/AWSSDK.Athena.dll",
+        "lib/netstandard2.0/AWSSDK.Athena.pdb",
+        "lib/netstandard2.0/AWSSDK.Athena.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Core/3.5.3.3": {
+      "sha512": "J5p51atBfFkUUS+fe9NQxqsrQeC1wX9TE+xf7YbNu6/I0YkSmotic57BbwFSuTyewge10JwAr7koaEPNn6o4aQ==",
+      "type": "package",
+      "path": "awssdk.core/3.5.3.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.5.3.3.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.5.9.1": {
+      "sha512": "+WNpVcgYYys2/8Ye2cyc/un+Uz56fJcRb5sRmM6VL+WZFHikHzVp8VrAgeLfR96c64XhaTP/f1keh2DatxkT6Q==",
+      "type": "package",
+      "path": "awssdk.s3/3.5.9.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.5.9.1.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard1.3/AWSSDK.S3.dll",
+        "lib/netstandard1.3/AWSSDK.S3.pdb",
+        "lib/netstandard1.3/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.Athena >= 3.5.1.7",
+      "AWSSDK.S3 >= 3.5.9.1",
+      "Newtonsoft.Json >= 12.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Grant\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Grant\\Downloads\\S3CRUDOperation_5\\S3CRUDOperation\\S3CRUDOperation\\S3CRUDOperation.csproj",
+      "projectName": "S3CRUDOperation",
+      "projectPath": "C:\\Users\\Grant\\Downloads\\S3CRUDOperation_5\\S3CRUDOperation\\S3CRUDOperation\\S3CRUDOperation.csproj",
+      "packagesPath": "C:\\Users\\Grant\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Grant\\Downloads\\S3CRUDOperation_5\\S3CRUDOperation\\S3CRUDOperation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AWSSDK.Athena": {
+            "target": "Package",
+            "version": "[3.5.1.7, )"
+          },
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.9.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "JI/J2nvIJTdUHD3PGj+69l8g65VCTZeOd4ajSd8auGfTmlvNKUbuTYNq2b9qJUBfDPTKOOOE46wlHGE7J9o3ng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Grant\\Downloads\\S3CRUDOperation_5\\S3CRUDOperation\\S3CRUDOperation\\S3CRUDOperation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Grant\\.nuget\\packages\\awssdk.athena\\3.5.1.7\\awssdk.athena.3.5.1.7.nupkg.sha512",
+    "C:\\Users\\Grant\\.nuget\\packages\\awssdk.core\\3.5.3.3\\awssdk.core.3.5.3.3.nupkg.sha512",
+    "C:\\Users\\Grant\\.nuget\\packages\\awssdk.s3\\3.5.9.1\\awssdk.s3.3.5.9.1.nupkg.sha512",
+    "C:\\Users\\Grant\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
